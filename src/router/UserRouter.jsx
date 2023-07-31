@@ -1,8 +1,11 @@
 import React from 'react';
+import { useRef } from 'react';
 import "../assets/styles/Common.css";
+import { io } from 'socket.io-client';
 import OtpPage from '../pages/users/OtpPage';
 import AuthLayout from '../layout/AuthLayout';
 import { Routes, Route } from 'react-router-dom';
+import AnswerPage from '../pages/users/AnswerPage';
 import SignInPage from '../pages/users/SignInPage';
 import SignupPage from '../pages/users/SignupPage';
 import ProfilePage from '../pages/users/ProfilePage';
@@ -11,18 +14,15 @@ import CompilerPage from '../pages/users/CompilerPage';
 import GuestHomePage from '../pages/users/GuestHomePage';
 import QaSessionPage from '../pages/users/QaSessionPage';
 import DetailViewPage from '../pages/users/DetailViewPage';
+import NotificationPage from '../pages/users/NotificationPage';
 import UsersProfilePage from '../pages/users/UsersProfilePage';
 import ProtectedRoutes from '../protectedRoute/ProtectedRoutes';
 import UserDashBoardPage from '../pages/users/UserDashBoardPage';
 import CreateQustionPage from '../pages/users/CreateQustionPage';
-import NotificationPage from '../pages/users/NotificationPage';
-import { useRef } from 'react';
-import { io } from 'socket.io-client';
-import AnswerPage from '../pages/users/AnswerPage';
 
 function UserRouter() {
     const socket = useRef();
-    socket.current = io(`http://localhost:8000`);
+    socket.current = io(process.env.REACT_APP_USER);
 
     return (
         <>
