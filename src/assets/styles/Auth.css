@@ -1,0 +1,46 @@
+.authOuter {
+  width: 100%;
+  height: 100vh;
+}
+
+.backgroundDesign {
+  width: 100%;
+  height: 100vh;
+}
+
+.formInput:focus {
+  outline: none;
+}
+
+.authButton {
+  border-radius: 2px;
+  background-color: #62027d;
+  border: none;
+  color: white;
+}
+
+.googleButton img {
+  width: 30px;
+}
+
+.googleButton {
+  border-radius: 500px;
+  border: 2px solid rgb(230, 230, 230);
+  background-color: white;
+}
+
+.otpOuter input {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.otpOuter div {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.otpOuter input:focus {
+  border: 1.4px solid #62027d !important;
+  outline: 1.2px solid #62027d !important;
+  border-radius: 2px;
+}

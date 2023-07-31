@@ -1,0 +1,145 @@
+.askQustionButton {
+  border: none;
+  transition: 0.4s;
+  border-radius: 3px;
+}
+
+.question {
+  font-size: 19px;
+  text-decoration: none;
+}
+
+.question:hover {
+  text-decoration: underline;
+}
+
+.userProfile {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border: none;
+}
+
+.socialText {
+  font-size: 12px;
+}
+
+.questionBody {
+  /* box-shadow: 0px 0px 5px 1px #686868; */
+  /* border: 1px solid #ab01da; */
+  border-radius: 5px;
+  /* border-radius: 3px; */
+}
+
+.questionBody:hover {
+  /* border: 1px solid rgb(197, 197, 197); */
+  transform: translateX(-19px);
+  transition: 0.3s;
+}
+
+.user {
+  font-size: 11px;
+  padding-right: 9px;
+}
+
+.time {
+  font-size: 11px;
+}
+
+.answerCount {
+  padding-left: 10px;
+  padding-top: 2px;
+  padding-right: 10px;
+  /* font-size: px; */
+  font-weight: 600;
+  /* border: 1px solid green; */
+  color: green;
+}
+
+.questionHeading {
+  /* color: rgb(161, 161, 161); */
+  color: rgb(120, 120, 120);
+}
+
+.questionDetailsPage {
+  /* border: 1px solid green; */
+  border-radius: 6px;
+  box-shadow: 0px 0px 22px 3px rgb(233, 233, 233);
+}
+
+.commentOption:hover {
+  color: #6610f2 !important;
+}
+
+.commentOption {
+  color: #9452ff !important;
+  background-color: inherit !important;
+}
+
+.commentBody {
+  /* border: 1px solid rgb(229, 229, 229); */
+  /* background: #000; */
+  transition: 0.4s;
+}
+
+.commentInnerBody {
+  background: rgba(201, 198, 198, 0.304);
+  border-radius: 5px;
+}
+
+.commentBody p {
+  font-size: 12px;
+}
+
+.commentOptionActive {
+  color: #6610f2 !important;
+}
+
+.emojiButton {
+  border-radius: 300px;
+  border: none;
+  background: inherit;
+}
+
+.tag-body {
+  font-weight: lighter;
+  border-radius: 10% !important;
+  border: 1px solid white !important;
+}
+
+.bgClrBorder {
+  border: 1px solid #9452ff !important;
+}
+
+.bgClrBorder:hover {
+  background-color: #9452ff !important;
+}
+
+.acceptedButton {
+  border: 1px solid;
+  background-color: inherit;
+}
+
+.acceptAnswerOption {
+  display: none;
+  cursor: pointer;
+}
+
+.answerSectionOuter:hover .acceptAnswerOption {
+  transition: 0.2s;
+  display: block;
+}
+
+.timeagoshower{
+  font-size: 10px;
+}
+
+.answerOptions{
+  opacity: 0.9;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.answerCountactive{
+  border: 1px solid;
+}

@@ -1,0 +1,25 @@
+/* Comment section */
+.commentInputBox {
+  border: none;
+  border-bottom: 2px solid rgb(192, 187, 187);
+  outline: none;
+}
+
+.leaveCommentButton {
+  background-color: #6610f2 !important;
+  color: white;
+  border: none;
+  background-color: inherit;
+}
+/* Comment Secition end */
+
+.commentbody {
+  position: relative;
+}
+
+.emojiBody {
+  position: absolute;
+  left: 0%;
+  top: 100%;
+  z-index: 300;
+}

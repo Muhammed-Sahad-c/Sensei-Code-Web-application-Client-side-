@@ -1,0 +1,32 @@
+
+
+.previewBody{
+    border-radius: 3px;
+    min-height: 80vh;
+    height: auto;
+    border: 1px solid grey;
+}
+
+
+.qustionEditor{
+    height: 60vh;
+    border-radius: 200px;
+}
+
+.previewHeading{
+    font-weight: bold;
+}
+
+
+pre{
+    background-color: rgb(27, 25, 25);
+    color: white;
+    border-radius: 3px;
+    padding: 1rem;
+}
+
+.input-all {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}

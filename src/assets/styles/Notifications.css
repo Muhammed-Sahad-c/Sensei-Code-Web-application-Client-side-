@@ -1,0 +1,31 @@
+.notificationHeading {
+  font-weight: 500;
+}
+
+.notificationStyle {
+  color: gray;
+}
+
+.centerItems {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.notificationContent {
+  font-size: 16px;
+  font-weight:400;
+  margin: 0px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.notificationBody{
+    box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.137);
+    /* border: 1px solid rgba(255, 255, 255, 0.45); */
+}
+
+.names{
+   font-size: 14px;
+}
+

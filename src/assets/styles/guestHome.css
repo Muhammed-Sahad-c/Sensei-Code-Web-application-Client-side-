@@ -1,0 +1,35 @@
+.getStarted {
+  background-color: #62027d;
+  border: none;
+  border-radius: 4000px;
+  color: whie;
+  color: white;
+  font-weight: 500;
+}
+
+.signIn {
+  background-color: inherit;
+  color: black;
+  border: none;
+}
+
+.guestHomeImage {
+  width: 100%;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.homeText h1 {
+  font-size: 57px;
+}
+
+.hiLight {
+  color: #62027d;
+  font-weight: bold;
+}
+

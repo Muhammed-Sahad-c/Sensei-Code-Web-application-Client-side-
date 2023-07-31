@@ -1,0 +1,86 @@
+.homeFeedBody {
+  /* height: 100vh; */
+  width: 100%;
+  background: rgb(253, 253, 253);
+}
+
+.profileButton {
+  border-radius: 500px;
+}
+
+.offcanvasItems {
+  display: flex;
+  border: none;
+  border-left: 2px solid rgba(0, 0, 0, 0);
+  background-color: inherit;
+  transition: 0.2s;
+}
+
+.offcanvasOuter:hover .offcanvasItems {
+  border-left: 2px solid #a603d3 !important;
+  color: #a603d3 !important;
+  font-weight: 600;
+  transform: translateY(-3px);
+}
+
+.offcanvasItemsActive {
+  border-left: 2px solid #a603d3 !important;
+  color: #a603d3 !important;
+  font-weight: 600;
+}
+
+.offcanvasItems span {
+  background-color: rgb(192, 3, 3);
+  border-radius: 500px;
+  font-size: 10px;
+  color: white;
+}
+
+.offcanvasTheme:hover {
+  border-left: 2px solid #62027d !important;
+  color: #a603d3 !important;
+  font-weight: 600;
+  transform: translateY(-3px);
+}
+
+.sidebarButton {
+  border: none;
+}
+
+.homeCourseLinks {
+  color: #a603d3;
+}
+
+.homeCourseLinks:hover {
+  color: #62027d;
+}
+
+.featureContents {
+  border-radius: 100%;
+  border: 1px solid rgba(177, 177, 177, 0.753);
+}
+
+.featureContents:hover {
+  border-radius: 100%;
+  border: 1px solid #a603d3;
+}
+
+.tool {
+  max-width: 400px;
+  position: absolute;
+  top: 0%;
+  color: #a603d3;
+  transform: translateY(-4px);
+  transition: 0.3s;
+}
+
+.homeDiscription {
+  font-weight: lighter;
+  line-height: 27px;
+}
+
+.homeHeading {
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 32px;
+}

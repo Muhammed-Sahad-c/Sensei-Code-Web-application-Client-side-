@@ -1,0 +1,21 @@
+.modalForm {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid grey !important;
+  border-radius: 0%;
+}
+
+.modalForm:focus {
+  border: none;
+  outline: none;
+}
+
+.modalForm:active {
+  border: none;
+  outline: none;
+}
+
+.modalFormChoosebutton {
+  cursor: pointer;
+  font-size: 12px;
+}
